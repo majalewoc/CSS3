@@ -1,0 +1,25 @@
+[title] {
+    color: rgb(226, 125, 43);
+}
+
+
+[title="About me"] {
+    color: rgb(65, 225, 118);
+}
+
+[title~="Container"] {
+    color: rgb(185, 164, 171);
+}
+
+[title*="tainer "] {
+    background-color: magenta;
+
+}
+
+[title^="More"] {
+    background-color:rgb(132, 11, 180);
+}
+
+[title$="skills"] {
+    background-color: plum;
+}
