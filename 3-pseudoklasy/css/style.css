@@ -1,0 +1,26 @@
+#name:hover {
+    background-color: hotpink;
+}
+#name:focus {
+background-color: blue;
+}
+
+.customer:first-child {
+color: rebeccapurple;
+background-color: aqua
+}
+
+.customer:last-child {
+    color: rgb(5, 121, 82)
+}
+
+.customer:nth-child(3) {
+    color: blueviolet;
+}
+.customer:nth-child(2n+ 4) {
+    color: brown;
+    background-color:lightseagreen
+}
+.customer:nth-last-child(2) {
+    background-color: lightgreen;
+}
