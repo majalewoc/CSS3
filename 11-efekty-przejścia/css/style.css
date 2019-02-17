@@ -1,0 +1,17 @@
+.box {
+	width: 150px;
+	height: 150px;
+	margin: 20 px;
+
+}
+#colors {
+	transition: background-color 3s linear 1s;
+	background-color: wheat;
+
+}
+
+#colors:hover {
+	background-color: rgb(187, 104, 31);
+	cursor: not-allowed;
+
+}
