@@ -1,0 +1,61 @@
+form {
+    background-color: #213b50;
+    color: white;
+    width: 600px;
+    padding: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+form select, form input, form textarea {
+    background-color:#2b4a64;
+    border-style: none;
+    color: white;
+    width: 300px;
+    outline: none;
+    padding: 5px;
+}
+
+form input[type="radio"], form input[type="checkbox"] {
+    width: 20px;
+    padding-bottom:10px;
+}
+
+form label[for*="male"] {
+    display:inline;
+}
+
+form label[for="agreement"] {
+    display: inline;
+    margin-bottom: 5px;
+    
+}
+
+input:focus {
+    border-color: #ffffff;
+    border-width: 1px;
+    color: #ffffff;
+    background-color: #4e708c;
+    border-style: solid
+}
+
+form textarea {
+    height: 100px;
+}
+
+form input[type="submit"]{
+    background-color:green;
+    width: 70px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
+
+
