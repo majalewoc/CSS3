@@ -1,0 +1,34 @@
+* {
+    color: blue;
+}
+
+p {
+    color: purple;
+}
+
+#kasia {
+    color: green;
+}
+p.lorak {
+    color:palevioletred;
+}
+
+ul span {
+    color: brown;
+}
+
+li> a {
+    color: goldenrod;
+}
+
+li#pierwszy {
+    color: deeppink;
+}
+
+li#pierwszy ~ li >a {
+    color: deeppink;
+}
+
+li#drugi + li >a {
+    color: greenyellow
+}
