@@ -1,11 +1,14 @@
 
 body {
-    font: 0px;
+    font-size: 0px;
 }
 figure {
 
     float: left;
     width: 33%;
+}
+header {
+    font-size: 16px;
 }
 #gallery {
     width: 100%;
