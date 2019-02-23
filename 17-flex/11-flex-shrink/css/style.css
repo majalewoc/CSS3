@@ -11,14 +11,12 @@ Domyślne kolory 'flex-item' - START
     padding: 10px;
     margin: 3px;
     background-color: orange;
-    flex-basis: 25%;
-    max-height: 220px;
-    
+    flex-basis: 40%;
+/*    flex-shrink: 2;*/
 }
 
 .flex-item:nth-last-of-type(odd) {
     background-color: lightgray;
-    max-height: 150px;
 }
 /* 
 ------------------------------------
@@ -33,16 +31,15 @@ Domyślne kolory 'flex-item' - END
 .container {
     border: 1px dashed red;
     display: flex;
-    justify-content: flex-start;
-/*    justify-content: flex-end;*/
-/*    justify-content: center;*/
-/*    justify-content: space-between;*/
-/*    justify-content: space-around;*/
-/*    justify-content: space-evenly;    */
-    height: 700px;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: start;
+}
+
+/*
+Każdy item ma ustawiony flex-basis na 40%.
+Czyli itemy są szersze o 20% niż kontener.
+Ustaw flex-shrink, aby zobaczyć jak item się zmniejsza :)
+*/
+.ordered-item {
+/*    flex-shrink: 4;*/
 }
 
 
