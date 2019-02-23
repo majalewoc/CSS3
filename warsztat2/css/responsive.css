@@ -1,0 +1,31 @@
+body {
+    font: 0px;
+}
+
+
+#gallery {
+width: 100%;
+}
+
+@media (min-width: 480px) {
+    figure {
+        float: left;
+        width: 100%;
+    } 
+
+
+
+@media (min-width: 768px) {
+    figure {
+        float: left;
+        width: 50%;
+    }
+
+@media (min-width: 992px) {
+    figure {
+        float: left;
+        width: 30%;
+    } 
+    
+    
+   
